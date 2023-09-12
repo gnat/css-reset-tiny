@@ -1,0 +1,7 @@
+*,*::before,*::after { margin: 0; box-sizing: border-box; } /* Remove margins. Use sane box-sizing model. */
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6,label,table,td,th { padding: 0; }
+h1,h2,h3,h4,h5,h6,p { font-size: 100%; font-weight: normal; overflow-wrap: break-word; } /* Reset all headers. */
+button,input,select,textarea { font: inherit; } /* No custom font on forms. */
+img,video,picture,canvas,svg { height: auto; max-width: 100%; } /* Media should not break outside of parent. */
+table { border-collapse: collapse; border-spacing: 0; } /* Modern tables. */
+html,body { height: 100%; background: #AAA; } /* Allow percentage based heights everywhere. Disable flashbang. */
