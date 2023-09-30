@@ -1,10 +1,10 @@
 /* ♻️ Tiny CSS Reset (https://github.com/gnat/css-reset-tiny) */
-*,*::before,*::after { margin: 0; box-sizing: border-box; } /* Remove margins. Use sane box-sizing model. */
-html { text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; } /* Prevent font size inflation on mobile. */
+*,*::before,*::after { margin: 0; box-sizing: border-box; } /* Remove margins. Prevent padding and border from affecting element width. */
+html { text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; tab-size: 4; } /* Prevent font size inflation on mobile. Readable tab size. */
 html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6,label,table,td,th { padding: 0; }
-h1,h2,h3,h4,h5,h6,p { font-size: 100%; font-weight: normal; overflow-wrap: break-word; } /* Reset all headers. */
+h1,h2,h3,h4,h5,h6,p { font-size: inherit; font-weight: inherit; overflow-wrap: break-word; } /* Reset all headers. */
 h1,h2,h3,h4 { text-wrap: balance; } /* Balance text wrapping on headings */
 button,input,select,textarea { font: inherit; } /* No custom font on forms. */
 img,video,picture,canvas,svg { height: auto; max-width: 100%; } /* Media should not break outside of parent. */
-table { border-collapse: collapse; border-spacing: 0; } /* Modern tables. */
+table { text-indent: 0; border-color: inherit; border-collapse: collapse; border-spacing: 0; } /* Modern tables. */
 html,body { background: #AAA; } /* Disable flashbang. */
