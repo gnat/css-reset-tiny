@@ -1,7 +1,7 @@
 # ♻️ Tiny CSS Reset 
-12 line modern vanilla CSS reset. Copy, paste and go!
+Under 12 line modern vanilla CSS reset. Copy, paste and go!
 
-https://github.com/gnat/css-reset-tiny/blob/a87fe88decfbfe769a61653882016c169b8e4de5/reset.css#L1-L12
+https://github.com/gnat/css-reset-tiny/blob/94b5217370ef6b74a160f428e533818d8023b150/reset.css#L1-L12
 
 * Upgraded [minireset.css](https://github.com/jgthms/minireset.css) with less bullshit and modern additions.
 * Some extras from [Modern CSS Reset (September 2023)](https://andy-bell.co.uk/a-more-modern-css-reset/)
