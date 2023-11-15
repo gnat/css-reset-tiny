@@ -1,10 +1,12 @@
 /* ♻️ Tiny CSS Reset (https://github.com/gnat/css-reset-tiny) */
-*,*::before,*::after { margin: 0; box-sizing: border-box; } /* Remove margins. Prevent padding and border from affecting element width. */
-html { text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; tab-size: 4; } /* Prevent font size inflation on mobile. Readable tab size. */
-html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6,label,table,td,th { padding: 0; }
-h1,h2,h3,h4,h5,h6,p { font-size: inherit; font-weight: inherit; overflow-wrap: break-word; } /* Reset all headers. */
-h1,h2,h3,h4 { text-wrap: balance; } /* Balance text wrapping on headings */
+*,*::before,*::after { box-sizing: border-box; margin: 0; } /* Prevent padding and border from affecting element width. Remove margins. */
+html { text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; tab-size: 4; } /* Prevent font size inflation on mobile. Sane tab size. */
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6,label,table,td,th { padding: 0; } /* Zero padding. */
+h1,h2,h3,h4,h5,h6,p { font-size: inherit; font-weight: inherit; overflow-wrap: break-word; } /* Reset all headers and <p>. */
+h1,h2,h3,h4 { text-wrap: balance; } /* Balance text on big headers. */
 button,input,select,textarea { font: inherit; } /* No custom font on forms. */
-img,video,picture,canvas,svg { height: auto; max-width: 100%; } /* Media should not break outside of parent. */
+canvas,img,picture,svg,video { height: auto; max-width: 100%; } /* Media should not break outside of parent. */
+audio,canvas,embed,iframe,img,object,svg,video { vertical-align: middle; } /* Remove tiny space under these elements. */
 table { text-indent: 0; border-color: inherit; border-collapse: collapse; border-spacing: 0; } /* Modern tables. */
-html,body { background: #AAA; } /* Disable flashbang. */
+[hidden] { display: none; } /* Hidden elements should stay hidden. */
+html,body { background: #aaa; } /* Disable flashbang. */
