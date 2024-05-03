@@ -1,5 +1,5 @@
 /* ♻️ Tiny CSS Reset (https://github.com/gnat/css-reset-tiny) */
-*,*::before,*::after { box-sizing: border-box; margin: 0; } /* Prevent padding and border from affecting element width. Remove margins. */
+*,*::before,*::after { box-sizing: border-box; margin: 0; min-width: 0; } /* Prevent padding and border from affecting element width. Remove margins. Remove random default min widths for input etc. */
 html { text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; tab-size: 4; } /* Prevent font size inflation on mobile. Sane tab size. */
 html,body { background: #aaa; } /* Disable screen flashbang. */
 html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6,label,table,td,th { padding: 0; } /* No padding. */
