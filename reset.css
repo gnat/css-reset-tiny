@@ -9,4 +9,4 @@ button,input,select,textarea { font: inherit; } /* No custom font on forms. */
 img,picture,svg,video { height: auto; max-width: 100%; } /* Media should not break outside of parent. */
 audio,canvas,embed,iframe,img,object,svg,video { vertical-align: middle; } /* Removes tiny space on bottom. */
 table { text-indent: 0; border-color: inherit; border-collapse: collapse; border-spacing: 0; } /* Modern tables. */
-[hidden],style { display: none !important; } /* Hidden elements stay hidden. */
+[hidden] { display: none !important; } /* Hidden elements stay hidden. */
